@@ -1,5 +1,5 @@
 from typing import List
-from app.streamlit.logger import logger
+from app.logger import logger
 from app.streamlit.core.manager import logic_test, convert_numbers
 import pytest
 

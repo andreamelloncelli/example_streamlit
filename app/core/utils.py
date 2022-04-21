@@ -9,7 +9,7 @@ import unidecode
 import numpy as np
 import pandas as pd
 
-from app.streamlit.logger import logger
+from app.logger import logger
 
 
 # Conversions
