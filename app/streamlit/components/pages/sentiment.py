@@ -1,6 +1,6 @@
 import streamlit as st
 
-from app.streamlit.common.sentiment import (
+from app.common.sentiment import (
     text_blob_sentiment,
     vader_sentiment,
 )

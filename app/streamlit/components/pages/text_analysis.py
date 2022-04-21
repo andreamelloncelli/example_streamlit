@@ -1,8 +1,8 @@
 import streamlit as st
-from app.streamlit.common.download import convert_df
-from app.streamlit.common.plots import frequency_plot, wordcloud
-from app.streamlit.common.transformations import most_frequent_words
-from app.streamlit.common.importer import read_dataframe
+from app.common.download import convert_df
+from app.common.plots import frequency_plot, wordcloud
+from app.common.transformations import most_frequent_words
+from app.common.importer import read_dataframe
 
 
 def app():
