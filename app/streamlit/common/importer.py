@@ -2,7 +2,7 @@ import os
 
 import streamlit as st
 import pandas as pd
-from app.streamlit.config import settings
+from app.config import settings
 
 
 @st.cache(persist=False, show_spinner=True)
